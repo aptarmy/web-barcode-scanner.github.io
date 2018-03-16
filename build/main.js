@@ -1,1 +1,691 @@
-webpackJsonp([0],{132:function(l,n){function u(l){return Promise.resolve().then(function(){throw new Error("Cannot find module '"+l+"'.")})}u.keys=function(){return[]},u.resolve=u,l.exports=u,u.id=132},165:function(l,n){function u(l){return Promise.resolve().then(function(){throw new Error("Cannot find module '"+l+"'.")})}u.keys=function(){return[]},u.resolve=u,l.exports=u,u.id=165},192:function(l,n,u){"use strict";function a(l,n){switch(void 0===l&&(l=O),n.type){case"BARCODE_DECODED":return l=JSON.parse(JSON.stringify(l)),l.isDecoded=!0,l.decodedOutput=n.payload,l;case"BARCODE_RESULT_RESET":return l=JSON.parse(JSON.stringify(l)),l.isDecoded=!1,l.decodedOutput=null,l;default:return l}}function e(l){return m._19(0,[(l()(),m.Z(0,0,null,null,6,"button",[["class","item item-block"],["ion-item",""]],null,[[null,"click"]],function(l,n,u){var a=!0;if("click"===n){a=!1!==l.component.openPage(l.context.$implicit)&&a}return a},X.b,X.a)),m.Y(1,1097728,null,3,q.a,[A.a,W.a,m.j,m.z,[2,$.a]],null,null),m._16(335544320,4,{contentLabel:0}),m._16(603979776,5,{_buttons:1}),m._16(603979776,6,{_icons:1}),m.Y(5,16384,null,0,J.a,[],null,null),(l()(),m._18(6,2,["\n        ","\n      "]))],null,function(l,n){l(n,6,0,n.context.$implicit.title)})}function t(l){return m._19(0,[m._16(402653184,1,{nav:0}),(l()(),m.Z(1,0,null,null,28,"ion-menu",[["role","navigation"],["type","overlay"]],null,null,null,N.b,N.a)),m._15(6144,null,Q.a,null,[G.a]),m.Y(3,245760,null,2,G.a,[K.a,m.j,W.a,ll.a,m.z,nl.a,ul.l,al.a,el.a],{content:[0,"content"],type:[1,"type"]},null),m._16(335544320,2,{menuContent:0}),m._16(335544320,3,{menuNav:0}),(l()(),m._18(-1,0,["\n\n  "])),(l()(),m.Z(7,0,null,0,10,"ion-header",[],null,null,null,null,null)),m.Y(8,16384,null,0,tl.a,[W.a,m.j,m.z,[2,il.a]],null,null),(l()(),m._18(-1,null,["\n    "])),(l()(),m.Z(10,0,null,null,6,"ion-toolbar",[["class","toolbar"]],[[2,"statusbar-padding",null]],null,null,ol.b,ol.a)),m.Y(11,49152,null,0,rl.a,[W.a,m.j,m.z],null,null),(l()(),m._18(-1,3,["\n      "])),(l()(),m.Z(13,0,null,3,2,"ion-title",[],null,null,null,cl.b,cl.a)),m.Y(14,49152,null,0,sl.a,[W.a,m.j,m.z,[2,rl.a],[2,_l.a]],null,null),(l()(),m._18(-1,0,["Pages"])),(l()(),m._18(-1,3,["\n    "])),(l()(),m._18(-1,null,["\n  "])),(l()(),m._18(-1,0,["\n\n  "])),(l()(),m.Z(19,0,null,0,9,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,dl.b,dl.a)),m.Y(20,4374528,[[2,4]],0,bl.a,[W.a,ll.a,al.a,m.j,m.z,el.a,nl.a,m.u,[2,il.a],[2,hl.a]],null,null),(l()(),m._18(-1,1,["\n    "])),(l()(),m.Z(22,0,null,1,5,"ion-list",[],null,null,null,null,null)),m.Y(23,16384,null,0,fl.a,[W.a,m.j,m.z,ll.a,ul.l,al.a],null,null),(l()(),m._18(-1,null,["\n      "])),(l()(),m.U(16777216,null,null,1,null,e)),m.Y(26,802816,null,0,pl.h,[m.I,m.F,m.p],{ngForOf:[0,"ngForOf"]},null),(l()(),m._18(-1,null,["\n    "])),(l()(),m._18(-1,1,["\n  "])),(l()(),m._18(-1,0,["\n\n"])),(l()(),m._18(-1,null,["\n\n"])),(l()(),m.Z(31,0,null,null,2,"ion-nav",[["swipeBackEnabled","true"]],null,null,null,ml.b,ml.a)),m._15(6144,null,Q.a,null,[gl.a]),m.Y(33,4374528,[[1,4],["content",4]],0,gl.a,[[2,il.a],[2,hl.a],el.a,W.a,ll.a,m.j,m.u,m.z,m.i,ul.l,vl.a,[2,Yl.a],al.a,m.k],{swipeBackEnabled:[0,"swipeBackEnabled"],root:[1,"root"]},null),(l()(),m._18(-1,null,["\n"]))],function(l,n){var u=n.component;l(n,3,0,m._13(n,33),"overlay");l(n,26,0,u.pages);l(n,33,0,"true",u.rootPage)},function(l,n){l(n,10,0,m._13(n,11)._sbPadding);l(n,19,0,m._13(n,20).statusbarPadding,m._13(n,20)._hasRefresher)})}function i(l){return m._19(0,[(l()(),m.Z(0,0,null,null,20,"ion-header",[],null,null,null,null,null)),m.Y(1,16384,null,0,tl.a,[W.a,m.j,m.z,[2,il.a]],null,null),(l()(),m._18(-1,null,["\n  "])),(l()(),m.Z(3,0,null,null,16,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,zl.b,zl.a)),m.Y(4,49152,null,0,_l.a,[el.a,[2,il.a],[2,hl.a],W.a,m.j,m.z],null,null),(l()(),m._18(-1,3,["\n    "])),(l()(),m.Z(6,0,null,0,8,"button",[["ion-button",""],["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var a=!0;if("click"===n){a=!1!==m._13(l,8).toggle()&&a}return a},yl.b,yl.a)),m.Y(7,1097728,[[1,4]],0,kl.a,[[8,""],W.a,m.j,m.z],null,null),m.Y(8,1064960,null,0,Sl.a,[K.a,[2,il.a],[2,kl.a],[2,_l.a]],{menuToggle:[0,"menuToggle"]},null),m.Y(9,16384,null,1,Tl.a,[W.a,m.j,m.z,[2,rl.a],[2,_l.a]],null,null),m._16(603979776,1,{_buttons:1}),(l()(),m._18(-1,0,["\n      "])),(l()(),m.Z(12,0,null,0,1,"ion-icon",[["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),m.Y(13,147456,null,0,wl.a,[W.a,m.j,m.z],{name:[0,"name"]},null),(l()(),m._18(-1,0,["\n    "])),(l()(),m._18(-1,3,["\n    "])),(l()(),m.Z(16,0,null,3,2,"ion-title",[],null,null,null,cl.b,cl.a)),m.Y(17,49152,null,0,sl.a,[W.a,m.j,m.z,[2,rl.a],[2,_l.a]],null,null),(l()(),m._18(-1,0,["Hello Ionic"])),(l()(),m._18(-1,3,["\n  "])),(l()(),m._18(-1,null,["\n"])),(l()(),m._18(-1,null,["\n\n\n"])),(l()(),m.Z(22,0,null,null,21,"ion-content",[["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,dl.b,dl.a)),m.Y(23,4374528,null,0,bl.a,[W.a,ll.a,al.a,m.j,m.z,el.a,nl.a,m.u,[2,il.a],[2,hl.a]],null,null),(l()(),m._18(-1,1,["\n\n  "])),(l()(),m.Z(25,0,null,1,1,"h3",[],null,null,null,null,null)),(l()(),m._18(-1,null,["Welcome to your first Ionic app!"])),(l()(),m._18(-1,1,["\n\n  "])),(l()(),m.Z(28,0,null,1,1,"p",[],null,null,null,null,null)),(l()(),m._18(-1,null,["\n    This starter project is our way of helping you get a functional app running in record time.\n  "])),(l()(),m._18(-1,1,["\n  "])),(l()(),m.Z(31,0,null,1,1,"p",[],null,null,null,null,null)),(l()(),m._18(-1,null,["\n    Follow along on the tutorial section of the Ionic docs!\n  "])),(l()(),m._18(-1,1,["\n  "])),(l()(),m.Z(34,0,null,1,8,"p",[],null,null,null,null,null)),(l()(),m._18(-1,null,["\n    "])),(l()(),m.Z(36,0,null,null,5,"button",[["color","primary"],["ion-button",""],["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var a=!0;if("click"===n){a=!1!==m._13(l,38).toggle()&&a}return a},yl.b,yl.a)),m.Y(37,1097728,[[2,4]],0,kl.a,[[8,""],W.a,m.j,m.z],{color:[0,"color"]},null),m.Y(38,1064960,null,0,Sl.a,[K.a,[2,il.a],[2,kl.a],[2,_l.a]],{menuToggle:[0,"menuToggle"]},null),m.Y(39,16384,null,1,Tl.a,[W.a,m.j,m.z,[2,rl.a],[2,_l.a]],{color:[0,"color"]},null),m._16(603979776,2,{_buttons:1}),(l()(),m._18(-1,0,["Toggle Menu"])),(l()(),m._18(-1,null,["\n  "])),(l()(),m._18(-1,1,["\n\n"])),(l()(),m._18(-1,null,["\n"]))],function(l,n){l(n,8,0,"");l(n,13,0,"menu");l(n,37,0,"primary");l(n,38,0,"");l(n,39,0,"primary")},function(l,n){l(n,3,0,m._13(n,4)._hidden,m._13(n,4)._sbPadding);l(n,6,0,m._13(n,8).isHidden);l(n,12,0,m._13(n,13)._hidden);l(n,22,0,m._13(n,23).statusbarPadding,m._13(n,23)._hasRefresher);l(n,36,0,m._13(n,38).isHidden)})}function o(l){return m._19(0,[(l()(),m.Z(0,0,null,null,0,"div",[["id","recordScreen"]],null,null,null,null,null))],null,null)}function r(l){return m._19(0,[m._16(402653184,1,{barcodeReader:0}),(l()(),m.Z(1,0,null,null,20,"ion-header",[],null,null,null,null,null)),m.Y(2,16384,null,0,tl.a,[W.a,m.j,m.z,[2,il.a]],null,null),(l()(),m._18(-1,null,["\n  "])),(l()(),m.Z(4,0,null,null,16,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,zl.b,zl.a)),m.Y(5,49152,null,0,_l.a,[el.a,[2,il.a],[2,hl.a],W.a,m.j,m.z],null,null),(l()(),m._18(-1,3,["\n    "])),(l()(),m.Z(7,0,null,0,8,"button",[["ion-button",""],["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var a=!0;if("click"===n){a=!1!==m._13(l,9).toggle()&&a}return a},yl.b,yl.a)),m.Y(8,1097728,[[2,4]],0,kl.a,[[8,""],W.a,m.j,m.z],null,null),m.Y(9,1064960,null,0,Sl.a,[K.a,[2,il.a],[2,kl.a],[2,_l.a]],{menuToggle:[0,"menuToggle"]},null),m.Y(10,16384,null,1,Tl.a,[W.a,m.j,m.z,[2,rl.a],[2,_l.a]],null,null),m._16(603979776,2,{_buttons:1}),(l()(),m._18(-1,0,["\n      "])),(l()(),m.Z(13,0,null,0,1,"ion-icon",[["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),m.Y(14,147456,null,0,wl.a,[W.a,m.j,m.z],{name:[0,"name"]},null),(l()(),m._18(-1,0,["\n    "])),(l()(),m._18(-1,3,["\n    "])),(l()(),m.Z(17,0,null,3,2,"ion-title",[],null,null,null,cl.b,cl.a)),m.Y(18,49152,null,0,sl.a,[W.a,m.j,m.z,[2,rl.a],[2,_l.a]],null,null),(l()(),m._18(-1,0,["Barcode Scanner"])),(l()(),m._18(-1,3,["\n  "])),(l()(),m._18(-1,null,["\n"])),(l()(),m._18(-1,null,["\n\n\n"])),(l()(),m.Z(23,0,null,null,5,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,dl.b,dl.a)),m.Y(24,4374528,null,0,bl.a,[W.a,ll.a,al.a,m.j,m.z,el.a,nl.a,m.u,[2,il.a],[2,hl.a]],null,null),(l()(),m._18(-1,1,["\n  "])),(l()(),m.Z(26,0,null,1,1,"barcode-reader",[],null,null,null,o,Pl)),m.Y(27,49152,[[1,4]],0,T,[Ol.a,S],null,null),(l()(),m._18(-1,1,["\n"])),(l()(),m._18(-1,null,["\n"]))],function(l,n){l(n,9,0,"");l(n,14,0,"menu")},function(l,n){l(n,4,0,m._13(n,5)._hidden,m._13(n,5)._sbPadding);l(n,7,0,m._13(n,9).isHidden);l(n,13,0,m._13(n,14)._hidden);l(n,23,0,m._13(n,24).statusbarPadding,m._13(n,24)._hasRefresher)})}function c(l){return m._19(0,[(l()(),m.Z(0,0,null,null,20,"ion-header",[],null,null,null,null,null)),m.Y(1,16384,null,0,tl.a,[W.a,m.j,m.z,[2,il.a]],null,null),(l()(),m._18(-1,null,["\n  "])),(l()(),m.Z(3,0,null,null,16,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,zl.b,zl.a)),m.Y(4,49152,null,0,_l.a,[el.a,[2,il.a],[2,hl.a],W.a,m.j,m.z],null,null),(l()(),m._18(-1,3,["\n    "])),(l()(),m.Z(6,0,null,0,8,"button",[["ion-button",""],["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var a=!0;if("click"===n){a=!1!==m._13(l,8).toggle()&&a}return a},yl.b,yl.a)),m.Y(7,1097728,[[1,4]],0,kl.a,[[8,""],W.a,m.j,m.z],null,null),m.Y(8,1064960,null,0,Sl.a,[K.a,[2,il.a],[2,kl.a],[2,_l.a]],{menuToggle:[0,"menuToggle"]},null),m.Y(9,16384,null,1,Tl.a,[W.a,m.j,m.z,[2,rl.a],[2,_l.a]],null,null),m._16(603979776,1,{_buttons:1}),(l()(),m._18(-1,0,["\n      "])),(l()(),m.Z(12,0,null,0,1,"ion-icon",[["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),m.Y(13,147456,null,0,wl.a,[W.a,m.j,m.z],{name:[0,"name"]},null),(l()(),m._18(-1,0,["\n    "])),(l()(),m._18(-1,3,["\n    "])),(l()(),m.Z(16,0,null,3,2,"ion-title",[],null,null,null,cl.b,cl.a)),m.Y(17,49152,null,0,sl.a,[W.a,m.j,m.z,[2,rl.a],[2,_l.a]],null,null),(l()(),m._18(-1,0,["Barcode Detail"])),(l()(),m._18(-1,3,["\n  "])),(l()(),m._18(-1,null,["\n"])),(l()(),m._18(-1,null,["\n\n\n"])),(l()(),m.Z(22,0,null,null,8,"ion-content",[["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,dl.b,dl.a)),m.Y(23,4374528,null,0,bl.a,[W.a,ll.a,al.a,m.j,m.z,el.a,nl.a,m.u,[2,il.a],[2,hl.a]],null,null),(l()(),m._18(-1,1,["\n  "])),(l()(),m.Z(25,0,null,1,1,"h1",[],null,null,null,null,null)),(l()(),m._18(-1,null,["Barcode detail"])),(l()(),m._18(-1,1,["\n  "])),(l()(),m.Z(28,0,null,1,1,"p",[],null,null,null,null,null)),(l()(),m._18(29,null,["",""])),(l()(),m._18(-1,1,["\n"])),(l()(),m._18(-1,null,["\n"]))],function(l,n){l(n,8,0,"");l(n,13,0,"menu")},function(l,n){var u=n.component;l(n,3,0,m._13(n,4)._hidden,m._13(n,4)._sbPadding);l(n,6,0,m._13(n,8).isHidden);l(n,12,0,m._13(n,13)._hidden);l(n,22,0,m._13(n,23).statusbarPadding,m._13(n,23)._hasRefresher);l(n,29,0,u.decodedBarcode)})}function s(l){return m._19(0,[(l()(),m.Z(0,0,null,null,7,"button",[["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var a=!0;if("click"===n){a=!1!==m._13(l,1).toggle()&&a}return a},null,null)),m.Y(1,1064960,null,0,Sl.a,[K.a,[2,il.a],[2,kl.a],[2,_l.a]],{menuToggle:[0,"menuToggle"]},null),m.Y(2,16384,null,1,Tl.a,[W.a,m.j,m.z,[2,rl.a],[2,_l.a]],null,null),m._16(603979776,2,{_buttons:1}),(l()(),m._18(-1,null,["\n      "])),(l()(),m.Z(5,0,null,null,1,"ion-icon",[["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),m.Y(6,147456,null,0,wl.a,[W.a,m.j,m.z],{name:[0,"name"]},null),(l()(),m._18(-1,null,["\n    "]))],function(l,n){l(n,1,0,"");l(n,6,0,"menu")},function(l,n){l(n,0,0,m._13(n,1).isHidden);l(n,5,0,m._13(n,6)._hidden)})}function _(l){return m._19(0,[(l()(),m.Z(0,0,null,null,4,"h3",[["text-center",""]],null,null,null,null,null)),(l()(),m._18(1,null,["\n    ","\n    "])),(l()(),m.Z(2,0,null,null,1,"ion-icon",[["role","img"]],[[2,"hide",null]],null,null,null,null)),m.Y(3,147456,null,0,wl.a,[W.a,m.j,m.z],{name:[0,"name"]},null),(l()(),m._18(-1,null,["\n  "]))],function(l,n){l(n,3,0,n.component.selectedItem.icon)},function(l,n){l(n,1,0,n.component.selectedItem.title);l(n,2,0,m._13(n,3)._hidden)})}function d(l){return m._19(0,[(l()(),m.Z(0,0,null,null,4,"h4",[["text-center",""]],null,null,null,null,null)),(l()(),m._18(-1,null,["\n    You navigated here from "])),(l()(),m.Z(2,0,null,null,1,"b",[],null,null,null,null,null)),(l()(),m._18(3,null,["",""])),(l()(),m._18(-1,null,["\n  "]))],null,function(l,n){l(n,3,0,n.component.selectedItem.title)})}function b(l){return m._19(0,[m._16(402653184,1,{navBar:0}),(l()(),m.Z(1,0,null,null,13,"ion-header",[],null,null,null,null,null)),m.Y(2,16384,null,0,tl.a,[W.a,m.j,m.z,[2,il.a]],null,null),(l()(),m._18(-1,null,["\n  "])),(l()(),m.Z(4,0,null,null,9,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,zl.b,zl.a)),m.Y(5,49152,[[1,4],["navBar",4]],0,_l.a,[el.a,[2,il.a],[2,hl.a],W.a,m.j,m.z],null,null),(l()(),m._18(-1,3,["\n    "])),(l()(),m.U(16777216,null,0,1,null,s)),m.Y(8,16384,null,0,pl.i,[m.I,m.F],{ngIf:[0,"ngIf"]},null),(l()(),m._18(-1,3,["\n    "])),(l()(),m.Z(10,0,null,3,2,"ion-title",[],null,null,null,cl.b,cl.a)),m.Y(11,49152,null,0,sl.a,[W.a,m.j,m.z,[2,rl.a],[2,_l.a]],null,null),(l()(),m._18(-1,0,["Item Details"])),(l()(),m._18(-1,3,["\n  "])),(l()(),m._18(-1,null,["\n"])),(l()(),m._18(-1,null,["\n\n"])),(l()(),m.Z(16,0,null,null,8,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,dl.b,dl.a)),m.Y(17,4374528,null,0,bl.a,[W.a,ll.a,al.a,m.j,m.z,el.a,nl.a,m.u,[2,il.a],[2,hl.a]],null,null),(l()(),m._18(-1,1,["\n  "])),(l()(),m.U(16777216,null,1,1,null,_)),m.Y(20,16384,null,0,pl.i,[m.I,m.F],{ngIf:[0,"ngIf"]},null),(l()(),m._18(-1,1,["\n  "])),(l()(),m.U(16777216,null,1,1,null,d)),m.Y(23,16384,null,0,pl.i,[m.I,m.F],{ngIf:[0,"ngIf"]},null),(l()(),m._18(-1,1,["\n"])),(l()(),m._18(-1,null,["\n"]))],function(l,n){var u=n.component;l(n,8,0,!u.selectedItem);l(n,20,0,u.selectedItem);l(n,23,0,u.selectedItem)},function(l,n){l(n,4,0,m._13(n,5)._hidden,m._13(n,5)._sbPadding);l(n,16,0,m._13(n,17).statusbarPadding,m._13(n,17)._hasRefresher)})}function h(l){return m._19(0,[(l()(),m.Z(0,0,null,null,12,"button",[["class","item item-block"],["ion-item",""]],null,[[null,"click"]],function(l,n,u){var a=!0;if("click"===n){a=!1!==l.component.itemTapped(u,l.context.$implicit)&&a}return a},X.b,X.a)),m.Y(1,1097728,null,3,q.a,[A.a,W.a,m.j,m.z,[2,$.a]],null,null),m._16(335544320,2,{contentLabel:0}),m._16(603979776,3,{_buttons:1}),m._16(603979776,4,{_icons:1}),m.Y(5,16384,null,0,J.a,[],null,null),(l()(),m._18(-1,2,["\n      "])),(l()(),m.Z(7,0,null,0,1,"ion-icon",[["item-left",""],["role","img"]],[[2,"hide",null]],null,null,null,null)),m.Y(8,147456,[[4,4]],0,wl.a,[W.a,m.j,m.z],{name:[0,"name"]},null),(l()(),m._18(9,2,["\n      ","\n      "])),(l()(),m.Z(10,0,null,4,1,"div",[["class","item-note"],["item-right",""]],null,null,null,null,null)),(l()(),m._18(11,null,["\n        ","\n      "])),(l()(),m._18(-1,2,["\n    "]))],function(l,n){l(n,8,0,m._2(1,"",n.context.$implicit.icon,""))},function(l,n){l(n,7,0,m._13(n,8)._hidden);l(n,9,0,n.context.$implicit.title);l(n,11,0,n.context.$implicit.note)})}function f(l){return m._19(0,[(l()(),m.Z(0,0,null,null,20,"ion-header",[],null,null,null,null,null)),m.Y(1,16384,null,0,tl.a,[W.a,m.j,m.z,[2,il.a]],null,null),(l()(),m._18(-1,null,["\n  "])),(l()(),m.Z(3,0,null,null,16,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,zl.b,zl.a)),m.Y(4,49152,null,0,_l.a,[el.a,[2,il.a],[2,hl.a],W.a,m.j,m.z],null,null),(l()(),m._18(-1,3,["\n    "])),(l()(),m.Z(6,0,null,0,8,"button",[["ion-button",""],["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var a=!0;if("click"===n){a=!1!==m._13(l,8).toggle()&&a}return a},yl.b,yl.a)),m.Y(7,1097728,[[1,4]],0,kl.a,[[8,""],W.a,m.j,m.z],null,null),m.Y(8,1064960,null,0,Sl.a,[K.a,[2,il.a],[2,kl.a],[2,_l.a]],{menuToggle:[0,"menuToggle"]},null),m.Y(9,16384,null,1,Tl.a,[W.a,m.j,m.z,[2,rl.a],[2,_l.a]],null,null),m._16(603979776,1,{_buttons:1}),(l()(),m._18(-1,0,["\n      "])),(l()(),m.Z(12,0,null,0,1,"ion-icon",[["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),m.Y(13,147456,null,0,wl.a,[W.a,m.j,m.z],{name:[0,"name"]},null),(l()(),m._18(-1,0,["\n    "])),(l()(),m._18(-1,3,["\n    "])),(l()(),m.Z(16,0,null,3,2,"ion-title",[],null,null,null,cl.b,cl.a)),m.Y(17,49152,null,0,sl.a,[W.a,m.j,m.z,[2,rl.a],[2,_l.a]],null,null),(l()(),m._18(-1,0,["My First List"])),(l()(),m._18(-1,3,["\n  "])),(l()(),m._18(-1,null,["\n"])),(l()(),m._18(-1,null,["\n\n"])),(l()(),m.Z(22,0,null,null,9,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,dl.b,dl.a)),m.Y(23,4374528,null,0,bl.a,[W.a,ll.a,al.a,m.j,m.z,el.a,nl.a,m.u,[2,il.a],[2,hl.a]],null,null),(l()(),m._18(-1,1,["\n  "])),(l()(),m.Z(25,0,null,1,5,"ion-list",[],null,null,null,null,null)),m.Y(26,16384,null,0,fl.a,[W.a,m.j,m.z,ll.a,ul.l,al.a],null,null),(l()(),m._18(-1,null,["\n    "])),(l()(),m.U(16777216,null,null,1,null,h)),m.Y(29,802816,null,0,pl.h,[m.I,m.F,m.p],{ngForOf:[0,"ngForOf"]},null),(l()(),m._18(-1,null,["\n  "])),(l()(),m._18(-1,1,["\n"])),(l()(),m._18(-1,null,["\n"]))],function(l,n){var u=n.component;l(n,8,0,"");l(n,13,0,"menu");l(n,29,0,u.items)},function(l,n){l(n,3,0,m._13(n,4)._hidden,m._13(n,4)._sbPadding);l(n,6,0,m._13(n,8).isHidden);l(n,12,0,m._13(n,13)._hidden);l(n,22,0,m._13(n,23).statusbarPadding,m._13(n,23)._hasRefresher)})}Object.defineProperty(n,"__esModule",{value:!0});var p=u(39),m=u(0),g=(u(3),u(48),function(){return function(){}}()),v=function(){function l(l,n){this.navCtrl=l,this.navParams=n,this.selectedItem=n.get("item")}return l.prototype.ionViewDidEnter=function(){var l=this;this.navBar.backButtonClick=function(){l.navCtrl.pop({animation:"ios-transition"})}},l}(),Y=function(){function l(l,n){this.navCtrl=l,this.navParams=n,this.icons=["flask","wifi","beer","football","basketball","paper-plane","american-football","boat","bluetooth","build"],this.items=[];for(var u=1;u<11;u++)this.items.push({title:"Item "+u,note:"This is item #"+u,icon:this.icons[Math.floor(Math.random()*this.icons.length)]})}return l.prototype.itemTapped=function(l,n){this.navCtrl.push(v,{item:n},{animation:"ios-transition"})},l}(),j=u(83),Z=u(84),z=u(46),y=u(243),k=u.n(y),S=function(){function l(l){this.store=l}return l.prototype.barcodeDecoded=function(l){this.store.dispatch({type:"BARCODE_DECODED",payload:l})},l.prototype.barcodeResultReset=function(){this.store.dispatch({type:"BARCODE_RESULT_RESET"})},l}(),T=function(){function l(l,n){this.alertCtrl=l,this.barcodeService=n}return l.prototype.initQuagga=function(){var l=this;if(navigator.mediaDevices&&"function"==typeof navigator.mediaDevices.getUserMedia){var n=Math.max(document.documentElement.clientWidth,window.innerWidth||0),u=Math.max(document.documentElement.clientHeight,window.innerHeight||0)-56;k.a.init({inputStream:{name:"Live",type:"LiveStream",target:"#recordScreen",constraints:{width:n,height:u}},decoder:{readers:["ean_reader"],debug:{drawBoundingBox:!0,showFrequency:!0,drawScanline:!0,showPattern:!0},locator:{halfSample:!0,patchSize:"large"}}},function(n){n&&console.log(n),k.a.onDetected(function(n){l.barcodeService.barcodeDecoded(n)}),k.a.start()})}else{this.alertCtrl.create({title:"Device don't suuport camera",subTitle:"Please make sure your device have camera and allow camera access.",buttons:["OK"]}).present()}},l.prototype.stopQuagga=function(){k.a.stop()},l}(),w=(u(244),function(){function l(l,n){var u=this;this.store=l,this.barcodeService=n,this.barcodeState=this.store.pipe(Object(z.v)("barcode")),this.barcodeStateSubscription=this.barcodeState.subscribe(function(l){l.isDecoded&&(u.decodedBarcode=l.decodedOutput.codeResult.code)})}return l.prototype.ionViewWillLeave=function(){this.barcodeService.barcodeResultReset(),this.barcodeStateSubscription.unsubscribe()},l}()),D=function(){function l(l,n,u){var a=this;this.navCtrl=l,this.store=n,this.barcodeService=u,this.barcodeState=this.store.pipe(Object(z.v)("barcode")),setTimeout(function(){a.barcodeService.barcodeDecoded({codeResult:{code:"123456789"}})},1e3)}return l.prototype.ionViewDidEnter=function(){var l=this;this.barcodeReader.initQuagga(),this.barcodeStateSubscription=this.barcodeState.subscribe(function(n){n.isDecoded&&l.navCtrl.push(w)})},l.prototype.ionViewWillLeave=function(){this.barcodeReader.stopQuagga(),this.barcodeStateSubscription.unsubscribe()},l}(),I=function(){function l(l,n,u,a){this.platform=l,this.menu=n,this.statusBar=u,this.splashScreen=a,this.rootPage=g,this.initializeApp(),this.pages=[{title:"Hello Ionic",component:g},{title:"My First List",component:Y},{title:"Barcode Scanner",component:D}]}return l.prototype.initializeApp=function(){var l=this;this.platform.ready().then(function(){l.statusBar.styleDefault(),l.splashScreen.hide()})},l.prototype.openPage=function(l){this.menu.close(),this.nav.setRoot(l.component)},l}(),O={isDecoded:!1,decodedOutput:null},P=function(){return function(){}}(),R=function(){return function(){}}(),E=u(54),B=u(245),C=u(246),F=u(247),x=u(248),M=u(249),H=u(250),L=u(251),V=u(252),U=u(253),X=u(121),q=u(20),A=u(16),W=u(1),$=u(43),J=u(60),N=u(254),Q=u(37),G=u(76),K=u(18),ll=u(4),nl=u(22),ul=u(8),al=u(7),el=u(6),tl=u(38),il=u(5),ol=u(255),rl=u(25),cl=u(52),sl=u(31),_l=u(24),dl=u(53),bl=u(17),hl=u(13),fl=u(50),pl=u(11),ml=u(256),gl=u(61),vl=u(34),Yl=u(19),jl=m.X({encapsulation:2,styles:[],data:{}}),Zl=m.V("ng-component",I,function(l){return m._19(0,[(l()(),m.Z(0,0,null,null,1,"ng-component",[],null,null,null,t,jl)),m.Y(1,49152,null,0,I,[ll.a,K.a,j.a,Z.a],null,null)],null,null)},{},{},[]),zl=u(63),yl=u(29),kl=u(14),Sl=u(44),Tl=u(45),wl=u(26),Dl=m.X({encapsulation:2,styles:[],data:{}}),Il=m.V("page-hello-ionic",g,function(l){return m._19(0,[(l()(),m.Z(0,0,null,null,1,"page-hello-ionic",[],null,null,null,i,Dl)),m.Y(1,49152,null,0,g,[],null,null)],null,null)},{},{},[]),Ol=u(57),Pl=m.X({encapsulation:2,styles:[],data:{}}),Rl=m.X({encapsulation:2,styles:[],data:{}}),El=m.V("page-barcode-scanner",D,function(l){return m._19(0,[(l()(),m.Z(0,0,null,null,1,"page-barcode-scanner",[],null,null,null,r,Rl)),m.Y(1,49152,null,0,D,[hl.a,z.l,S],null,null)],null,null)},{},{},[]),Bl=m.X({encapsulation:2,styles:[],data:{}}),Cl=m.V("page-barcode-detail",w,function(l){return m._19(0,[(l()(),m.Z(0,0,null,null,1,"page-barcode-detail",[],null,null,null,c,Bl)),m.Y(1,49152,null,0,w,[z.l,S],null,null)],null,null)},{},{},[]),Fl=u(10),xl=m.X({encapsulation:2,styles:[],data:{}}),Ml=m.V("page-item-details",v,function(l){return m._19(0,[(l()(),m.Z(0,0,null,null,1,"page-item-details",[],null,null,null,b,xl)),m.Y(1,49152,null,0,v,[hl.a,Fl.a],null,null)],null,null)},{},{},[]),Hl=m.X({encapsulation:2,styles:[],data:{}}),Ll=m.V("page-list",Y,function(l){return m._19(0,[(l()(),m.Z(0,0,null,null,1,"page-list",[],null,null,null,f,Hl)),m.Y(1,49152,null,0,Y,[hl.a,Fl.a],null,null)],null,null)},{},{},[]),Vl=u(120),Ul=u(23),Xl=u(91),ql=u(117),Al=u(36),Wl=u(98),$l=u(189),Jl=u(56),Nl=u(51),Ql=u(100),Gl=u(71),Kl=u(105),ln=u(116),nn=u(112),un=u(188),an=u(118),en=u(99),tn=u(119),on=m.W(R,[E.b],function(l){return m._10([m._11(512,m.i,m.S,[[8,[B.a,C.a,F.a,x.a,M.a,H.a,L.a,V.a,U.a,Zl,Il,El,Cl,Ml,Ll]],[3,m.i],m.s]),m._11(5120,m.r,m._9,[[3,m.r]]),m._11(4608,pl.k,pl.j,[m.r,[2,pl.s]]),m._11(5120,m.b,m._0,[]),m._11(5120,m.p,m._6,[]),m._11(5120,m.q,m._7,[]),m._11(4608,p.c,p.q,[pl.c]),m._11(6144,m.D,null,[p.c]),m._11(4608,p.f,Vl.a,[]),m._11(5120,p.d,function(l,n,u,a,e){return[new p.k(l,n),new p.o(u),new p.n(a,e)]},[pl.c,m.u,pl.c,pl.c,p.f]),m._11(4608,p.e,p.e,[p.d,m.u]),m._11(135680,p.m,p.m,[pl.c]),m._11(4608,p.l,p.l,[p.e,p.m]),m._11(6144,m.B,null,[p.l]),m._11(6144,p.p,null,[p.m]),m._11(4608,m.G,m.G,[m.u]),m._11(4608,p.h,p.h,[pl.c]),m._11(4608,p.i,p.i,[pl.c]),m._11(4608,Ul.k,Ul.k,[]),m._11(4608,Ul.c,Ul.c,[]),m._11(4608,Xl.a,Xl.a,[el.a,W.a]),m._11(4608,Ol.a,Ol.a,[el.a,W.a]),m._11(4608,ql.a,ql.a,[]),m._11(4608,A.a,A.a,[]),m._11(4608,Al.a,Al.a,[ll.a]),m._11(4608,nl.a,nl.a,[W.a,ll.a,m.u,al.a]),m._11(4608,Wl.a,Wl.a,[el.a,W.a]),m._11(5120,pl.f,$l.b,[pl.q,[2,pl.a],W.a]),m._11(4608,pl.e,pl.e,[pl.f]),m._11(5120,Jl.b,Jl.d,[el.a,Jl.a]),m._11(5120,Yl.a,Yl.b,[el.a,Jl.b,pl.e,Nl.b,m.i]),m._11(4608,Ql.a,Ql.a,[el.a,W.a,Yl.a]),m._11(4608,Gl.a,Gl.a,[el.a,W.a]),m._11(4608,Kl.a,Kl.a,[el.a,W.a,Yl.a]),m._11(4608,ln.a,ln.a,[W.a,ll.a,al.a,el.a,ul.l]),m._11(4608,nn.a,nn.a,[el.a,W.a]),m._11(4608,vl.a,vl.a,[ll.a,W.a]),m._11(4608,j.a,j.a,[]),m._11(4608,Z.a,Z.a,[]),m._11(4608,S,S,[z.l]),m._11(512,pl.b,pl.b,[]),m._11(512,m.k,un.a,[]),m._11(256,W.b,{},[]),m._11(1024,an.a,an.b,[]),m._11(1024,ll.a,ll.b,[p.b,an.a,m.u]),m._11(1024,W.a,W.c,[W.b,ll.a]),m._11(512,al.a,al.a,[ll.a]),m._11(512,K.a,K.a,[]),m._11(512,el.a,el.a,[W.a,ll.a,[2,K.a]]),m._11(512,ul.l,ul.l,[el.a]),m._11(256,Jl.a,{links:[]},[]),m._11(512,m.h,m.h,[]),m._11(512,en.a,en.a,[m.h]),m._11(1024,Nl.b,Nl.c,[en.a,m.o]),m._11(1024,m.c,function(l,n,u,a,e,t,i,o,r,c,s,_,d){return[p.s(l),tn.a(n),ql.b(u,a),ln.b(e,t,i,o,r),Nl.d(c,s,_,d)]},[[2,m.t],W.a,ll.a,al.a,W.a,ll.a,al.a,el.a,ul.l,W.a,Jl.a,Nl.b,m.u]),m._11(512,m.d,m.d,[[2,m.c]]),m._11(131584,m.f,m.f,[m.u,m.T,m.o,m.k,m.i,m.d]),m._11(512,m.e,m.e,[m.f]),m._11(512,p.a,p.a,[[3,p.a]]),m._11(512,Ul.j,Ul.j,[]),m._11(512,Ul.d,Ul.d,[]),m._11(512,Ul.i,Ul.i,[]),m._11(512,$l.a,$l.a,[]),m._11(131584,z.a,z.a,[]),m._11(2048,z.g,null,[z.a]),m._11(256,z.o,void 0,[]),m._11(1024,z.c,z.s,[z.o]),m._11(256,z.n,{barcode:a},[]),m._11(2048,z.q,null,[z.n]),m._11(1024,z.b,z.r,[m.o,z.n,z.q]),m._11(256,z.p,z.t,[]),m._11(256,z.d,[],[]),m._11(1024,z.e,z.u,[z.p,z.d]),m._11(131584,z.f,z.f,[z.g,z.c,z.b,z.e]),m._11(2048,z.h,null,[z.f]),m._11(131584,z.i,z.i,[]),m._11(131584,z.j,z.j,[z.a,z.h,z.i,z.c]),m._11(2048,z.k,null,[z.j]),m._11(512,z.l,z.l,[z.k,z.a,z.f]),m._11(512,z.m,z.m,[z.a,z.h,z.i,z.l]),m._11(512,P,P,[]),m._11(512,R,R,[]),m._11(256,E.a,I,[]),m._11(256,pl.a,"/",[])])});Object(m.M)(),Object(p.j)().bootstrapModuleFactory(on)}},[192]);
+webpackJsonp([0],{
+
+/***/ 113:
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncatched exception popping up in devtools
+	return Promise.resolve().then(function() {
+		throw new Error("Cannot find module '" + req + "'.");
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = 113;
+
+/***/ }),
+
+/***/ 155:
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncatched exception popping up in devtools
+	return Promise.resolve().then(function() {
+		throw new Error("Cannot find module '" + req + "'.");
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = 155;
+
+/***/ }),
+
+/***/ 195:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HelloIonicPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var HelloIonicPage = (function () {
+    function HelloIonicPage() {
+    }
+    HelloIonicPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-hello-ionic',template:/*ion-inline-start:"/home/arm/business/Help CCI/ionic-barcode-reader/src/pages/hello-ionic/hello-ionic.html"*/'<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Hello Ionic</ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content padding>\n\n  <h3>Welcome to your first Ionic app!</h3>\n\n  <p>\n    This starter project is our way of helping you get a functional app running in record time.\n  </p>\n  <p>\n    Follow along on the tutorial section of the Ionic docs!\n  </p>\n  <p>\n    <button ion-button color="primary" menuToggle>Toggle Menu</button>\n  </p>\n\n</ion-content>\n'/*ion-inline-end:"/home/arm/business/Help CCI/ionic-barcode-reader/src/pages/hello-ionic/hello-ionic.html"*/
+        }),
+        __metadata("design:paramtypes", [])
+    ], HelloIonicPage);
+    return HelloIonicPage;
+}());
+
+//# sourceMappingURL=hello-ionic.js.map
+
+/***/ }),
+
+/***/ 196:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ListPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(32);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item_details_item_details__ = __webpack_require__(197);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var ListPage = (function () {
+    function ListPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.icons = ['flask', 'wifi', 'beer', 'football', 'basketball', 'paper-plane',
+            'american-football', 'boat', 'bluetooth', 'build'];
+        this.items = [];
+        for (var i = 1; i < 11; i++) {
+            this.items.push({
+                title: 'Item ' + i,
+                note: 'This is item #' + i,
+                icon: this.icons[Math.floor(Math.random() * this.icons.length)]
+            });
+        }
+    }
+    ListPage.prototype.itemTapped = function (event, item) {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__item_details_item_details__["a" /* ItemDetailsPage */], { item: item }, { animation: 'ios-transition' });
+    };
+    ListPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-list',template:/*ion-inline-start:"/home/arm/business/Help CCI/ionic-barcode-reader/src/pages/list/list.html"*/'<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>My First List</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <ion-list>\n    <button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)">\n      <ion-icon name="{{item.icon}}" item-left></ion-icon>\n      {{item.title}}\n      <div class="item-note" item-right>\n        {{item.note}}\n      </div>\n    </button>\n  </ion-list>\n</ion-content>\n'/*ion-inline-end:"/home/arm/business/Help CCI/ionic-barcode-reader/src/pages/list/list.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]])
+    ], ListPage);
+    return ListPage;
+}());
+
+//# sourceMappingURL=list.js.map
+
+/***/ }),
+
+/***/ 197:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ItemDetailsPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(32);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var ItemDetailsPage = (function () {
+    function ItemDetailsPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        // If we navigated to this page, we will have an item available as a nav param
+        this.selectedItem = navParams.get('item');
+    }
+    //Method to override the default back button action
+    ItemDetailsPage.prototype.ionViewDidEnter = function () {
+        var _this = this;
+        this.navBar.backButtonClick = function () {
+            //Write here wherever you wanna do
+            _this.navCtrl.pop({ animation: 'ios-transition' });
+        };
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_8" /* ViewChild */])('navBar'),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* Navbar */])
+    ], ItemDetailsPage.prototype, "navBar", void 0);
+    ItemDetailsPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-item-details',template:/*ion-inline-start:"/home/arm/business/Help CCI/ionic-barcode-reader/src/pages/item-details/item-details.html"*/'<ion-header>\n  <ion-navbar #navBar>\n    <button menuToggle *ngIf="!selectedItem">\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Item Details</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <h3 text-center *ngIf="selectedItem">\n    {{selectedItem.title}}\n    <ion-icon [name]="selectedItem.icon"></ion-icon>\n  </h3>\n  <h4 text-center *ngIf="selectedItem">\n    You navigated here from <b>{{selectedItem.title}}</b>\n  </h4>\n</ion-content>\n'/*ion-inline-end:"/home/arm/business/Help CCI/ionic-barcode-reader/src/pages/item-details/item-details.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]])
+    ], ItemDetailsPage);
+    return ItemDetailsPage;
+}());
+
+//# sourceMappingURL=item-details.js.map
+
+/***/ }),
+
+/***/ 202:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BarcodeScannerPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ngrx_store__ = __webpack_require__(53);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(32);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_barcode_reader_barcode_reader__ = __webpack_require__(203);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__services_barcode_service__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__barcode_detail_barcode_detail__ = __webpack_require__(204);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+var BarcodeScannerPage = (function () {
+    function BarcodeScannerPage(navCtrl, store, barcodeService) {
+        this.navCtrl = navCtrl;
+        this.store = store;
+        this.barcodeService = barcodeService;
+        this.barcodeState = this.store.pipe(Object(__WEBPACK_IMPORTED_MODULE_1__ngrx_store__["c" /* select */])('barcode'));
+    }
+    BarcodeScannerPage.prototype.ionViewDidEnter = function () {
+        var _this = this;
+        this.barcodeReader.startQuagga();
+        this.barcodeStateSubscription = this.barcodeState.subscribe(function (data) {
+            if (data.isDecoded) {
+                _this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_5__barcode_detail_barcode_detail__["a" /* BarcodeDetailPage */]);
+            }
+        });
+    };
+    BarcodeScannerPage.prototype.ionViewWillLeave = function () {
+        this.barcodeReader.stopQuagga();
+        this.barcodeStateSubscription.unsubscribe();
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_8" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_3__components_barcode_reader_barcode_reader__["a" /* BarcodeReaderComponent */]),
+        __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_3__components_barcode_reader_barcode_reader__["a" /* BarcodeReaderComponent */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__components_barcode_reader_barcode_reader__["a" /* BarcodeReaderComponent */]) === "function" && _a || Object)
+    ], BarcodeScannerPage.prototype, "barcodeReader", void 0);
+    BarcodeScannerPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-barcode-scanner',template:/*ion-inline-start:"/home/arm/business/Help CCI/ionic-barcode-reader/src/pages/barcode-scanner/barcode-scanner.html"*/'<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Barcode Scanner</ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content>\n  <barcode-reader></barcode-reader>\n</ion-content>\n'/*ion-inline-end:"/home/arm/business/Help CCI/ionic-barcode-reader/src/pages/barcode-scanner/barcode-scanner.html"*/,
+        }),
+        __metadata("design:paramtypes", [typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["g" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["g" /* NavController */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1__ngrx_store__["a" /* Store */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__ngrx_store__["a" /* Store */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_4__services_barcode_service__["a" /* BarcodeService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__services_barcode_service__["a" /* BarcodeService */]) === "function" && _d || Object])
+    ], BarcodeScannerPage);
+    return BarcodeScannerPage;
+    var _a, _b, _c, _d;
+}());
+
+//# sourceMappingURL=barcode-scanner.js.map
+
+/***/ }),
+
+/***/ 203:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BarcodeReaderComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_quagga__ = __webpack_require__(297);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_quagga___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_quagga__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(32);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_barcode_service__ = __webpack_require__(54);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+/**
+ * Generated class for the BarcodeReaderComponent component.
+ *
+ * See https://angular.io/api/core/Component for more info on Angular
+ * Components.
+ */
+var BarcodeReaderComponent = (function () {
+    function BarcodeReaderComponent(alertCtrl, barcodeService) {
+        this.alertCtrl = alertCtrl;
+        this.barcodeService = barcodeService;
+        this.isBarcodeReaderStopped = false;
+    }
+    BarcodeReaderComponent.prototype.startQuagga = function () {
+        var _this = this;
+        // check if hardware supports
+        if (!navigator.mediaDevices || !(typeof navigator.mediaDevices.getUserMedia === 'function')) {
+            this.isBarcodeReaderStopped = true;
+            var alert = this.alertCtrl.create({
+                title: 'Device don\'t suuport camera',
+                subTitle: 'Please make sure your device have camera and allow camera access.',
+                buttons: ['OK']
+            });
+            alert.present();
+            return;
+        }
+        // viewport width
+        var recordSreenWidth = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+        // viewport height remove header-bar height = content height
+        var recordScreenHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0) - 56;
+        __WEBPACK_IMPORTED_MODULE_1_quagga___default.a.init({
+            inputStream: {
+                name: "Live",
+                type: "LiveStream",
+                target: '#recordScreen',
+                constraints: {
+                    width: recordSreenWidth,
+                    height: recordScreenHeight
+                }
+            },
+            decoder: {
+                readers: ['ean_reader'],
+                locator: {
+                    halfSample: true,
+                    patchSize: 'large'
+                }
+            }
+        }, function (error) {
+            if (error) {
+                console.log(error);
+                _this.isBarcodeReaderStopped = true;
+            }
+            __WEBPACK_IMPORTED_MODULE_1_quagga___default.a.onDetected(function (data) {
+                _this.barcodeService.barcodeDecoded(data);
+            });
+            __WEBPACK_IMPORTED_MODULE_1_quagga___default.a.start();
+            _this.isBarcodeReaderStopped = false;
+        });
+    };
+    BarcodeReaderComponent.prototype.stopQuagga = function () {
+        __WEBPACK_IMPORTED_MODULE_1_quagga___default.a.stop();
+        this.isBarcodeReaderStopped = true;
+    };
+    BarcodeReaderComponent = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'barcode-reader',template:/*ion-inline-start:"/home/arm/business/Help CCI/ionic-barcode-reader/src/components/barcode-reader/barcode-reader.html"*/'<div id="recordScreen"></div>\n<p text-center>\n  <button *ngIf="!isBarcodeReaderStopped" ion-button (click)="stopQuagga()">Stop Scanner</button>\n  <button *ngIf="isBarcodeReaderStopped" ion-button (click)="startQuagga()">Start Scanner</button>\n</p>'/*ion-inline-end:"/home/arm/business/Help CCI/ionic-barcode-reader/src/components/barcode-reader/barcode-reader.html"*/,
+            styleUrls: ['/src/components/barcode-reader/barcode-reader.scss']
+        }),
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["a" /* AlertController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["a" /* AlertController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_3__services_barcode_service__["a" /* BarcodeService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__services_barcode_service__["a" /* BarcodeService */]) === "function" && _b || Object])
+    ], BarcodeReaderComponent);
+    return BarcodeReaderComponent;
+    var _a, _b;
+}());
+
+//# sourceMappingURL=barcode-reader.js.map
+
+/***/ }),
+
+/***/ 204:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BarcodeDetailPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_barcode_service__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngrx_store__ = __webpack_require__(53);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map__ = __webpack_require__(298);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map__);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var BarcodeDetailPage = (function () {
+    function BarcodeDetailPage(store, barcodeService) {
+        var _this = this;
+        this.store = store;
+        this.barcodeService = barcodeService;
+        this.barcodeState = this.store.pipe(Object(__WEBPACK_IMPORTED_MODULE_2__ngrx_store__["c" /* select */])('barcode'));
+        this.barcodeStateSubscription = this.barcodeState.subscribe(function (data) {
+            if (data.isDecoded) {
+                _this.decodedBarcode = data.decodedOutput.codeResult.code;
+            }
+        });
+    }
+    BarcodeDetailPage.prototype.ionViewWillLeave = function () {
+        this.barcodeService.barcodeResultReset();
+        this.barcodeStateSubscription.unsubscribe();
+    };
+    BarcodeDetailPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-barcode-detail',template:/*ion-inline-start:"/home/arm/business/Help CCI/ionic-barcode-reader/src/pages/barcode-detail/barcode-detail.html"*/'<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Barcode Detail</ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content padding>\n  <h1>Barcode detail</h1>\n  <p>{{decodedBarcode}}</p>\n</ion-content>\n'/*ion-inline-end:"/home/arm/business/Help CCI/ionic-barcode-reader/src/pages/barcode-detail/barcode-detail.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__ngrx_store__["a" /* Store */], __WEBPACK_IMPORTED_MODULE_1__services_barcode_service__["a" /* BarcodeService */]])
+    ], BarcodeDetailPage);
+    return BarcodeDetailPage;
+}());
+
+//# sourceMappingURL=barcode-detail.js.map
+
+/***/ }),
+
+/***/ 205:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(206);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(228);
+
+
+Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
+//# sourceMappingURL=main.js.map
+
+/***/ }),
+
+/***/ 228:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(31);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_common__ = __webpack_require__(43);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ionic_angular__ = __webpack_require__(32);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app_component__ = __webpack_require__(269);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__store__ = __webpack_require__(299);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_hello_ionic_hello_ionic__ = __webpack_require__(195);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_barcode_scanner_barcode_scanner__ = __webpack_require__(202);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_item_details_item_details__ = __webpack_require__(197);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_list_list__ = __webpack_require__(196);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ionic_native_status_bar__ = __webpack_require__(198);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__ionic_native_splash_screen__ = __webpack_require__(201);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_barcode_detail_barcode_detail__ = __webpack_require__(204);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__components_components_module__ = __webpack_require__(301);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__services_barcode_service__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__ngrx_store__ = __webpack_require__(53);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var AppModule = (function () {
+    function AppModule() {
+    }
+    AppModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_4__app_component__["a" /* MyApp */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_hello_ionic_hello_ionic__["a" /* HelloIonicPage */],
+                __WEBPACK_IMPORTED_MODULE_7__pages_barcode_scanner_barcode_scanner__["a" /* BarcodeScannerPage */],
+                __WEBPACK_IMPORTED_MODULE_12__pages_barcode_detail_barcode_detail__["a" /* BarcodeDetailPage */],
+                __WEBPACK_IMPORTED_MODULE_8__pages_item_details_item_details__["a" /* ItemDetailsPage */],
+                __WEBPACK_IMPORTED_MODULE_9__pages_list_list__["a" /* ListPage */]
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_2__angular_common__["b" /* CommonModule */],
+                __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
+                __WEBPACK_IMPORTED_MODULE_3_ionic_angular__["d" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_4__app_component__["a" /* MyApp */], {}, {
+                    links: []
+                }),
+                __WEBPACK_IMPORTED_MODULE_15__ngrx_store__["b" /* StoreModule */].forRoot(__WEBPACK_IMPORTED_MODULE_5__store__["a" /* store */]),
+                __WEBPACK_IMPORTED_MODULE_13__components_components_module__["a" /* ComponentsModule */]
+            ],
+            bootstrap: [__WEBPACK_IMPORTED_MODULE_3_ionic_angular__["b" /* IonicApp */]],
+            entryComponents: [
+                __WEBPACK_IMPORTED_MODULE_4__app_component__["a" /* MyApp */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_hello_ionic_hello_ionic__["a" /* HelloIonicPage */],
+                __WEBPACK_IMPORTED_MODULE_7__pages_barcode_scanner_barcode_scanner__["a" /* BarcodeScannerPage */],
+                __WEBPACK_IMPORTED_MODULE_12__pages_barcode_detail_barcode_detail__["a" /* BarcodeDetailPage */],
+                __WEBPACK_IMPORTED_MODULE_8__pages_item_details_item_details__["a" /* ItemDetailsPage */],
+                __WEBPACK_IMPORTED_MODULE_9__pages_list_list__["a" /* ListPage */]
+            ],
+            providers: [
+                __WEBPACK_IMPORTED_MODULE_10__ionic_native_status_bar__["a" /* StatusBar */],
+                __WEBPACK_IMPORTED_MODULE_11__ionic_native_splash_screen__["a" /* SplashScreen */],
+                { provide: __WEBPACK_IMPORTED_MODULE_1__angular_core__["u" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_3_ionic_angular__["c" /* IonicErrorHandler */] },
+                __WEBPACK_IMPORTED_MODULE_14__services_barcode_service__["a" /* BarcodeService */]
+            ]
+        })
+    ], AppModule);
+    return AppModule;
+}());
+
+//# sourceMappingURL=app.module.js.map
+
+/***/ }),
+
+/***/ 269:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(32);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pages_hello_ionic_hello_ionic__ = __webpack_require__(195);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pages_list_list__ = __webpack_require__(196);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(198);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_splash_screen__ = __webpack_require__(201);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_barcode_scanner_barcode_scanner__ = __webpack_require__(202);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+var MyApp = (function () {
+    function MyApp(platform, menu, statusBar, splashScreen) {
+        this.platform = platform;
+        this.menu = menu;
+        this.statusBar = statusBar;
+        this.splashScreen = splashScreen;
+        // make HelloIonicPage the root (or first) page
+        this.rootPage = __WEBPACK_IMPORTED_MODULE_2__pages_hello_ionic_hello_ionic__["a" /* HelloIonicPage */];
+        this.initializeApp();
+        // set our app's pages
+        this.pages = [
+            { title: 'Hello Ionic', component: __WEBPACK_IMPORTED_MODULE_2__pages_hello_ionic_hello_ionic__["a" /* HelloIonicPage */] },
+            { title: 'My First List', component: __WEBPACK_IMPORTED_MODULE_3__pages_list_list__["a" /* ListPage */] },
+            { title: 'Barcode Scanner', component: __WEBPACK_IMPORTED_MODULE_6__pages_barcode_scanner_barcode_scanner__["a" /* BarcodeScannerPage */] }
+        ];
+    }
+    MyApp.prototype.initializeApp = function () {
+        var _this = this;
+        this.platform.ready().then(function () {
+            // Okay, so the platform is ready and our plugins are available.
+            // Here you can do any higher level native things you might need.
+            _this.statusBar.styleDefault();
+            _this.splashScreen.hide();
+        });
+    };
+    MyApp.prototype.openPage = function (page) {
+        // close the menu when clicking a link from the menu
+        this.menu.close();
+        // navigate to the new page if it is not the current page
+        this.nav.setRoot(page.component);
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_8" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Nav */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Nav */])
+    ], MyApp.prototype, "nav", void 0);
+    MyApp = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"/home/arm/business/Help CCI/ionic-barcode-reader/src/app/app.html"*/'<ion-menu [content]="content" type="overlay">\n\n  <ion-header>\n    <ion-toolbar>\n      <ion-title>Pages</ion-title>\n    </ion-toolbar>\n  </ion-header>\n\n  <ion-content>\n    <ion-list>\n      <button ion-item *ngFor="let p of pages" (click)="openPage(p)">\n        {{p.title}}\n      </button>\n    </ion-list>\n  </ion-content>\n\n</ion-menu>\n\n<ion-nav [root]="rootPage" #content swipeBackEnabled="true"></ion-nav>\n'/*ion-inline-end:"/home/arm/business/Help CCI/ionic-barcode-reader/src/app/app.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* Platform */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* MenuController */],
+            __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__["a" /* StatusBar */],
+            __WEBPACK_IMPORTED_MODULE_5__ionic_native_splash_screen__["a" /* SplashScreen */]])
+    ], MyApp);
+    return MyApp;
+}());
+
+//# sourceMappingURL=app.component.js.map
+
+/***/ }),
+
+/***/ 299:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return store; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__reducers_barcode_reducer__ = __webpack_require__(300);
+
+var store = {
+    barcode: __WEBPACK_IMPORTED_MODULE_0__reducers_barcode_reducer__["a" /* barcodeReducer */]
+};
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+
+/***/ 300:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (immutable) */ __webpack_exports__["a"] = barcodeReducer;
+var defaultState = {
+    isDecoded: false,
+    decodedOutput: null
+};
+function barcodeReducer(state, action) {
+    if (state === void 0) { state = defaultState; }
+    switch (action.type) {
+        case 'BARCODE_DECODED':
+            // deal with immutable state
+            state = JSON.parse(JSON.stringify(state));
+            // modify state
+            state.isDecoded = true;
+            state.decodedOutput = action.payload;
+            return state;
+        case 'BARCODE_RESULT_RESET':
+            // deal with immutable state
+            state = JSON.parse(JSON.stringify(state));
+            // modify state
+            state.isDecoded = false;
+            state.decodedOutput = null;
+            return state;
+        default:
+            return state;
+    }
+}
+//# sourceMappingURL=barcode.reducer.js.map
+
+/***/ }),
+
+/***/ 301:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ComponentsModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__barcode_reader_barcode_reader__ = __webpack_require__(203);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(32);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_common__ = __webpack_require__(43);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+var ComponentsModule = (function () {
+    function ComponentsModule() {
+    }
+    ComponentsModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [__WEBPACK_IMPORTED_MODULE_1__barcode_reader_barcode_reader__["a" /* BarcodeReaderComponent */]],
+            imports: [__WEBPACK_IMPORTED_MODULE_3__angular_common__["b" /* CommonModule */], __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["d" /* IonicModule */]],
+            exports: [__WEBPACK_IMPORTED_MODULE_1__barcode_reader_barcode_reader__["a" /* BarcodeReaderComponent */]]
+        })
+    ], ComponentsModule);
+    return ComponentsModule;
+}());
+
+//# sourceMappingURL=components.module.js.map
+
+/***/ }),
+
+/***/ 54:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BarcodeService; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ngrx_store__ = __webpack_require__(53);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var BarcodeService = (function () {
+    function BarcodeService(store) {
+        this.store = store;
+    }
+    BarcodeService.prototype.barcodeDecoded = function (payload) {
+        this.store.dispatch({ type: 'BARCODE_DECODED', payload: payload });
+    };
+    BarcodeService.prototype.barcodeResultReset = function () {
+        this.store.dispatch({ type: 'BARCODE_RESULT_RESET' });
+    };
+    BarcodeService = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["A" /* Injectable */])(),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0__ngrx_store__["a" /* Store */]])
+    ], BarcodeService);
+    return BarcodeService;
+}());
+
+//# sourceMappingURL=barcode.service.js.map
+
+/***/ })
+
+},[205]);
+//# sourceMappingURL=main.js.map
