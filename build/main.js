@@ -296,9 +296,29 @@ var BarcodeReaderComponent = (function () {
             },
             decoder: {
                 readers: ['ean_reader'],
-                locator: {
-                    halfSample: true,
-                    patchSize: 'large'
+                debug: {
+                    drawBoundingBox: false,
+                    showFrequency: false,
+                    drawScanline: false,
+                    showPattern: false
+                }
+            },
+            locator: {
+                halfSample: true,
+                patchSize: 'large',
+                debug: {
+                    showCanvas: false,
+                    showPatches: false,
+                    showFoundPatches: false,
+                    showSkeleton: false,
+                    showLabels: false,
+                    showPatchLabels: false,
+                    showRemainingPatchLabels: false,
+                    boxFromPatches: {
+                        showTransformed: false,
+                        showTransformedBox: false,
+                        showBB: false
+                    }
                 }
             }
         }, function (error) {
